@@ -70,12 +70,80 @@ header {
 .screen-section {
     width: 1604px;
     height: 616px;
-    background-color: salmon;
     margin-top: 72px;
 
 }
+
 .screen-section .screen-image {
     width: 1200px;
     height: 616px;
     margin: 0 auto;
+}
+
+.card-section {
+    width: 1412px;
+    height: 210px;
+    margin: 64px auto;
+}
+
+.card-container {
+    width: 1412px;
+    height: 210px;
+
+}
+
+.card-container .card {
+    width: 449.33px;
+    height: 210px;
+    display: inline-block;
+    margin-left: 15px;
+    border-radius: 8px;
+background: #FFF;
+}
+
+.card-icon {
+    width: 417px;
+    height: 48px;
+    
+    margin: 16px auto;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+    margin: 0 auto;
+
+}
+
+.icon img {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+
+.card-text {
+    width: 417px;
+    height: 110px;
+    
+    margin: 20px auto;
+
+}
+
+.card-text h2 {
+    color: #181D27;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.card-text p {
+    color: #535862;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 15px;
 }
