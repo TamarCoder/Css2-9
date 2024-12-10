@@ -98,13 +98,13 @@ header {
     display: inline-block;
     margin-left: 15px;
     border-radius: 8px;
-background: #FFF;
+    background: #FFF;
 }
 
 .card-icon {
     width: 417px;
     height: 48px;
-    
+
     margin: 16px auto;
 }
 
@@ -127,7 +127,7 @@ background: #FFF;
 .card-text {
     width: 417px;
     height: 110px;
-    
+
     margin: 20px auto;
 
 }
@@ -146,4 +146,89 @@ background: #FFF;
     font-size: 16px;
     font-weight: 400;
     padding-top: 15px;
+}
+
+
+.shot-section {
+    width: 1604px;
+    height: 400px;
+
+    margin-top: 64px;
+
+}
+
+.shot-content {
+    width: 1216px;
+    height: 400px;
+    border-radius: 24px;
+    background: #53389E;
+
+    /* Shadows/shadow-xl */
+    box-shadow: 0px 20px 24px -4px var(--Colors-Effects-Shadows-shadow-xl_01, rgba(10, 13, 18, 0.08)), 0px 8px 8px -4px var(--Colors-Effects-Shadows-shadow-xl_02, rgba(10, 13, 18, 0.03)), 0px 3px 3px -1.5px var(--Colors-Effects-Shadows-shadow-xl_03, rgba(10, 13, 18, 0.04));
+    margin: 0 auto;
+}
+
+.shot-info {
+    width: 736px;
+    height: 318px;
+
+    display: inline-block;
+    margin-top: 40px;
+
+}
+
+.shot-info h3 {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 64px;
+    margin-left: 64px;
+
+}
+
+.shot-info p {
+
+    margin-top: 20px;
+    margin-left: 64px;
+    color: #E9D7FE;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.actions {
+    width: 269px;
+    height: 48px;
+    margin-top: 48px;
+    margin-left: 64px;
+
+}
+
+.actions .white {
+    width: 128px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    color: #414651;
+    /* Shadows/shadow-xs-skeuomorphic */
+    box-shadow: 0px 0px 0px 1px var(--Colors-Effects-Shadows-shadow-skeumorphic-inner-border, rgba(10, 13, 18, 0.18)) inset, 0px -2px 0px 0px var(--Colors-Effects-Shadows-shadow-skeumorphic-inner, rgba(10, 13, 18, 0.05)) inset, 0px 1px 2px 0px var(--Colors-Effects-Shadows-shadow-xs, rgba(10, 13, 18, 0.05));
+}
+
+.purple {
+    width: 128px;
+    height: 48px;
+    border-radius: 8px;
+    color: #FFF;
+    border: 2px solid #FFF;
+    background: #7F56D9;
+}
+
+.person {
+     margin-top: -357px;
+     margin-left: 736px;
+     border-top-right-radius:24px;
+     border-bottom-right-radius:24px;
+
 }
