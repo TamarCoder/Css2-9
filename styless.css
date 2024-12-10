@@ -66,3 +66,16 @@ header {
     margin-top: 9px;
     margin-left: 130px;
 }
+
+.screen-section {
+    width: 1604px;
+    height: 616px;
+    background-color: salmon;
+    margin-top: 72px;
+
+}
+.screen-section .screen-image {
+    width: 1200px;
+    height: 616px;
+    margin: 0 auto;
+}
